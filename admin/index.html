@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin – AI Talent Factory</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <style>
+    .admin{padding:40px 0}
+    .admin textarea{width:100%;min-height:420px;background:#05070d;color:#e6ebff;
+      border:1px solid var(--line);border-radius:12px;padding:12px;font-family:ui-monospace,Consolas,monospace}
+    .admin .row{display:flex;gap:.6rem;flex-wrap:wrap;margin:.8rem 0}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="../"><span class="brand__dot"></span>Back to site</a>
+      <div class="nav__cta">
+        <a class="btn btn--ghost" href="../">Preview Website</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="admin container">
+    <h2>Admin Panel (Simple JSON Editor)</h2>
+    <p class="muted">Edit konten di bawah ini, lalu export dan commit ke GitHub.</p>
+
+    <div class="row">
+      <button class="btn btn--ghost" id="reloadBtn">Reload from content.json</button>
+      <button class="btn btn--primary" id="exportBtn">Export JSON</button>
+    </div>
+
+    <textarea id="jsonBox" spellcheck="false"></textarea>
+    <p class="muted" id="status"></p>
+  </main>
+
+  <script src="admin.js"></script>
+</body>
+</html>

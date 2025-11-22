@@ -1,0 +1,88 @@
+{
+  "site": {
+    "title": "AI Talent Factory",
+    "tagline": "Bangun talenta AI Indonesia, dari belajar sampai siap industri.",
+    "ctaPrimary": "Gabung Program",
+    "ctaSecondary": "Lihat Kurikulum"
+  },
+  "nav": [
+    { "label": "Home", "href": "#home" },
+    { "label": "Program", "href": "#program" },
+    { "label": "Benefit", "href": "#benefit" },
+    { "label": "Partner", "href": "#partner" },
+    { "label": "Testimoni", "href": "#testi" }
+  ],
+  "hero": {
+    "headline": "AI Talent Factory",
+    "subheadline": "Pelatihan intensif AI Engineer & Full-Stack untuk PoC industri.",
+    "badges": ["Project-Based", "Mentor Industri", "Sertifikasi"],
+    "stats": [
+      { "value": "1.000+", "label": "Talenta Dibina" },
+      { "value": "50+", "label": "Mentor" },
+      { "value": "30+", "label": "Partner Industri" }
+    ]
+  },
+  "programs": [
+    {
+      "title": "AI Engineer Bootcamp",
+      "desc": "LLM Practitioner, Computer Vision, MLOps, sampai deploy ke production.",
+      "points": ["8–12 minggu", "PoC industri", "Portfolio siap kerja"],
+      "tag": "Advanced"
+    },
+    {
+      "title": "Full-Stack Developer (Intermediate → Advanced)",
+      "desc": "Frontend modern, backend scalable, CI/CD, dan deployment cloud.",
+      "points": ["Monorepo", "Serverless & Containers", "Testing end-to-end"],
+      "tag": "Intermediate"
+    },
+    {
+      "title": "SQA Engineer",
+      "desc": "Quality engineering modern: automation, performance, security & observability.",
+      "points": ["Playwright", "CI quality gates", "Industry workflow"],
+      "tag": "Career"
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Kurikulum Industri",
+      "desc": "Materi disusun dari kebutuhan real job-market dan SKKNI."
+    },
+    {
+      "title": "Real Project & PoC",
+      "desc": "Belajar sambil membangun solusi riil untuk industri/instansi."
+    },
+    {
+      "title": "Mentoring Intensif",
+      "desc": "Review rutin, pairing, dan feedback teknis yang tajam."
+    },
+    {
+      "title": "Talent Pool",
+      "desc": "Lulusan terbaik masuk database rekrutmen partner."
+    }
+  ],
+  "partners": [
+    "Komdigi", "DTS", "Universitas Mitra", "Startup AI", "Perusahaan Teknologi"
+  ],
+  "testimonials": [
+    {
+      "name": "Alumni Batch 1",
+      "role": "AI Engineer",
+      "quote": "Programnya keras tapi hasilnya nyata. Portofolio saya langsung dipakai untuk apply kerja."
+    },
+    {
+      "name": "Alumni Batch 2",
+      "role": "Full-Stack Dev",
+      "quote": "CI/CD, deployment, dan monorepo dijelaskan sampai kebayang workflow industri."
+    }
+  ],
+  "cta": {
+    "headline": "Siap jadi talenta AI & Full-Stack Indonesia berikutnya?",
+    "sub": "Daftar sekarang dan mulai bangun PoC industri bersama mentor.",
+    "button": "Daftar Sekarang"
+  },
+  "footer": {
+    "address": "Jakarta, Indonesia",
+    "email": "hello@aitalent.id",
+    "copyright": "© 2025 AI Talent Factory."
+  }
+}
